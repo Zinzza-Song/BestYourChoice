@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="right"
+    android:orientation="vertical">
+
+    <net.daum.mf.map.api.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:onClick="MyGps"
+        android:background="@drawable/my_position"
+        />
+
+    <ToggleButton
+        android:id="@+id/kor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_weight="0.09"
+        android:text="한"
+        android:textOff="한"
+        android:textOn="한" />
+
+    <ToggleButton
+        android:id="@+id/chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/kor"
+        android:layout_gravity="right"
+        android:layout_weight="0.09"
+        android:text="중"
+        android:textOff="중"
+        android:textOn="중" />
+
+    <ToggleButton
+        android:id="@+id/jap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/chi"
+        android:layout_gravity="right"
+        android:layout_weight="0.09"
+        android:text="일"
+        android:textOff="일"
+        android:textOn="일" />
+
+    <ToggleButton
+        android:id="@+id/usa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jap"
+        android:layout_below="@+id/jap"
+        android:layout_gravity="right"
+        android:layout_weight="0.09"
+        android:text="양"
+        android:textOff="양"
+        android:textOn="양" />
+
+    <ToggleButton
+        android:id="@+id/nig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/usa"
+        android:layout_below="@+id/usa"
+        android:layout_gravity="right"
+        android:layout_weight="0.09"
+        android:text="야"
+        android:textOff="야"
+        android:textOn="야" />
+
+    <ToggleButton
+        android:id="@+id/bun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nig"
+        android:layout_below="@+id/nig"
+        android:layout_gravity="right"
+        android:layout_weight="0.09"
+        android:text="분"
+        android:textOff="분"
+        android:textOn="분" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="res"
+        android:id="@+id/start"
+        android:background="@drawable/you_spin_me_baby"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goople4" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/goopleicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".selfrandom6" />
+        <activity android:name=".selfrandom_result7" />
+        <activity android:name=".focusinfomation5" />
+        <activity android:name=".notice8" />
+        <activity android:name=".version9" />
+        <activity android:name=".MarkerDemoActivity" />
+        <activity
+            android:name=".korea1"
+            android:label="@string/title_activity_korea1" >
+        </activity>
+        <activity
+            android:name=".korea2"
+            android:label="@string/title_activity_korea2" >
+        </activity>
+        <activity
+            android:name=".korea3"
+            android:label="@string/title_activity_korea3" >
+        </activity>
+        <activity
+            android:name=".korea4"
+            android:label="@string/title_activity_korea4" >
+        </activity>
+        <activity
+            android:name=".korea5"
+            android:label="@string/title_activity_korea5" >
+        </activity>
+        <activity
+            android:name=".korea6"
+            android:label="@string/title_activity_korea6" >
+        </activity>
+        <activity
+            android:name=".korea7"
+            android:label="@string/title_activity_korea7" >
+        </activity>
+        <activity
+            android:name=".korea8"
+            android:label="@string/title_activity_korea8" >
+        </activity>
+        <activity
+            android:name=".korea9"
+            android:label="@string/title_activity_korea9" >
+        </activity>
+        <activity
+            android:name=".korea10"
+            android:label="@string/title_activity_korea10" >
+        </activity>
+        <activity
+            android:name=".china1"
+            android:label="@string/title_activity_china1" >
+        </activity>
+        <activity
+            android:name=".china2"
+            android:label="@string/title_activity_china2" >
+        </activity>
+        <activity
+            android:name=".china3"
+            android:label="@string/title_activity_china3" >
+        </activity>
+        <activity
+            android:name=".china4"
+            android:label="@string/title_activity_china4" >
+        </activity>
+        <activity
+            android:name=".china5"
+            android:label="@string/title_activity_china5" >
+        </activity>
+        <activity
+            android:name=".china6"
+            android:label="@string/title_activity_china6" >
+        </activity>
+        <activity
+            android:name=".china7"
+            android:label="@string/title_activity_china7" >
+        </activity>
+        <activity
+            android:name=".china8"
+            android:label="@string/title_activity_china8" >
+        </activity>
+        <activity
+            android:name=".china9"
+            android:label="@string/title_activity_china9" >
+        </activity>
+        <activity
+            android:name=".china10"
+            android:label="@string/title_activity_china10" >
+        </activity>
+        <activity
+            android:name=".japan1"
+            android:label="@string/title_activity_japan1" >
+        </activity>
+        <activity
+            android:name=".japan2"
+            android:label="@string/title_activity_japan2" >
+        </activity>
+        <activity
+            android:name=".japan3"
+            android:label="@string/title_activity_japan3" >
+        </activity>
+        <activity
+            android:name=".japan6"
+            android:label="@string/title_activity_japan6" >
+        </activity>
+        <activity
+            android:name=".japan7"
+            android:label="@string/title_activity_japan7" >
+        </activity>
+        <activity
+            android:name=".japan8"
+            android:label="@string/title_activity_japan8" >
+        </activity>
+        <activity
+            android:name=".japan10"
+            android:label="@string/title_activity_japan10" >
+        </activity>
+        <activity
+            android:name=".west1"
+            android:label="@string/title_activity_west1" >
+        </activity>
+        <activity
+            android:name=".west2"
+            android:label="@string/title_activity_west2" >
+        </activity>
+        <activity
+            android:name=".west3"
+            android:label="@string/title_activity_west3" >
+        </activity>
+        <activity
+            android:name=".west4"
+            android:label="@string/title_activity_west4" >
+        </activity>
+        <activity
+            android:name=".west5"
+            android:label="@string/title_activity_west5" >
+        </activity>
+        <activity
+            android:name=".west6"
+            android:label="@string/title_activity_west6" >
+        </activity>
+        <activity
+            android:name=".west7"
+            android:label="@string/title_activity_west7" >
+        </activity>
+        <activity
+            android:name=".west8"
+            android:label="@string/title_activity_west8" >
+        </activity>
+        <activity
+            android:name=".west9"
+            android:label="@string/title_activity_west9" >
+        </activity>
+        <activity
+            android:name=".west10"
+            android:label="@string/title_activity_west10" >
+        </activity>
+        <activity
+            android:name=".night1"
+            android:label="@string/title_activity_night1" >
+        </activity>
+        <activity
+            android:name=".night2"
+            android:label="@string/title_activity_night2" >
+        </activity>
+        <activity
+            android:name=".night4"
+            android:label="@string/title_activity_night4" >
+        </activity>
+        <activity
+            android:name=".night5"
+            android:label="@string/title_activity_night5" >
+        </activity>
+        <activity
+            android:name=".night6"
+            android:label="@string/title_activity_night6" >
+        </activity>
+        <activity
+            android:name=".night7"
+            android:label="@string/title_activity_night7" >
+        </activity>
+        <activity
+            android:name=".night8"
+            android:label="@string/title_activity_night8" >
+        </activity>
+        <activity
+            android:name=".night10"
+            android:label="@string/title_activity_night10" >
+        </activity>
+        <activity
+            android:name=".bun2"
+            android:label="@string/title_activity_bun2" >
+        </activity>
+        <activity
+            android:name=".bun4"
+            android:label="@string/title_activity_bun4" >
+        </activity>
+        <activity
+            android:name=".bun5"
+            android:label="@string/title_activity_bun5" >
+        </activity>
+        <activity
+            android:name=".bun6"
+            android:label="@string/title_activity_bun6" >
+        </activity>
+        <activity
+            android:name=".bun7"
+            android:label="@string/title_activity_bun7" >
+        </activity>
+        <activity
+            android:name=".bun8"
+            android:label="@string/title_activity_bun8" >
+        </activity>
+        <activity
+            android:name=".bun9"
+            android:label="@string/title_activity_bun9" >
+        </activity>
+    </application>
+
+</manifest>
